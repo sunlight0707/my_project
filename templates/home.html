@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<!-- 引入 Font Awesome 的 CSS 檔案，搜尋按鈕的放大鏡圖示 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<h1>搜尋關鍵字</h1>
+<h4>第一個關鍵字必須輸入，第二個和第三個關鍵字可以選擇性留空或輸入。<br>
+若要同時搜尋多個關鍵字，請在關鍵字之間以空格分隔。</h4>
+
+<!-- 開始一個表單，將使用者輸入的資料送到 search 路由 -->
+<form action="{{ url_for('search') }}" method="post">
+    <!-- 第一個關鍵字的輸入欄位 -->
+    <input type="text" name="query1" placeholder="請輸入第一個關鍵字" required>
+     <!-- 第二個關鍵字的輸入欄位 -->
+    <input type="text" name="query2" placeholder="請輸入第二個關鍵字" >
+     <!-- 第二個關鍵字的輸入欄位 -->
+    <input type="text" name="query3" placeholder="請輸入第三個關鍵字" >
+    <!-- 搜尋按鈕 -->
+    <button type="submit" value="Search"><i class="fa fa-search"></i></button>
+</form>
+{% endblock %}
