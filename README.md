@@ -27,10 +27,6 @@ project_root/
 ├── pn_pie_chart.py # 圖表生成範例
 ├── rag_breeze.py # RAG 模型範例
 └── README.md
-
-yaml
-複製程式碼
-
 ---
 
 ## 💡 使用方式
@@ -54,3 +50,4 @@ yaml
 GitHub 對單檔大小限制為 100MB，因此部分資料拆分存放於 /pre_pare/all_dc_data/
 
 所有檔案僅供學術與程式結構參考，不建議直接應用於生產環境。
+
