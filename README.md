@@ -9,29 +9,25 @@
 ## 📁 專案結構
 
 project_root/
-   │
-   ├── .venv/                      # Python 虛擬環境（未上傳）
-   ├── pre_pare/                   # 資料預處理腳本與原始資料
-   │   ├── all_dc_data/            # 拆分後的 JSON 資料
-   │   ├── cloudscraper_text.py
-   │   ├── dcard_*.xlsx
-   │
-   ├── path_to_directory/          # JSON 結果資料
-   │   ├── queries_0_content.json
-   │   ├── queries_1_content.json
-   │   └── queries_2_content.json
-   │
-   ├── static/                     # CSS 樣式
-   │
-   ├── templates/                  # HTML 模板
-   │
-   ├── app.py                      # 主程式架構展示（Flask 範例）
-   │
-   ├── pn_pie_chart.py             # 圖表生成範例
-   │
-   ├── rag_breeze.py               # RAG 模型範例
-   │
-   └── README.md
+│
+├── .venv/                      # Python 虛擬環境（未上傳）
+├── pre_pare/                   # 資料預處理腳本與原始資料
+│   ├── all_dc_data/            # 拆分後的 JSON 資料
+│   ├── cloudscraper_text.py
+│   ├── dcard_*.xlsx
+│
+├── path_to_directory/          # JSON 結果資料
+│   ├── queries_0_content.json
+│   ├── queries_1_content.json
+│   └── queries_2_content.json
+│
+├── static/                     # CSS 樣式
+├── templates/                  # HTML 模板
+├── app.py                      # 主程式架構展示（Flask 範例）
+├── pn_pie_chart.py             # 圖表生成範例
+├── rag_breeze.py               # RAG 模型範例
+└── README.md
+
 
 
 ## 💡 使用方式
