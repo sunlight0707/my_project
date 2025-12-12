@@ -22,10 +22,15 @@ project_root/
    │   └── queries_2_content.json
    │
    ├── static/                     # CSS 樣式
+   │
    ├── templates/                  # HTML 模板
+   │
    ├── app.py                      # 主程式架構展示（Flask 範例）
+   │
    ├── pn_pie_chart.py             # 圖表生成範例
+   │
    ├── rag_breeze.py               # RAG 模型範例
+   │
    └── README.md
 
 
@@ -50,6 +55,7 @@ project_root/
 GitHub 對單檔大小限制為 100MB，因此部分資料拆分存放於 /pre_pare/all_dc_data/
 
 所有檔案僅供學術與程式結構參考，不建議直接應用於生產環境。
+
 
 
 
